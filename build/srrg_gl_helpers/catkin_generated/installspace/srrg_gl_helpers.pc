@@ -1,0 +1,8 @@
+prefix=/catkin_ws/install
+
+Name: srrg_gl_helpers
+Description: Description of srrg_gl_helpers
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lsrrg_gl_helpers_library
+Requires: 

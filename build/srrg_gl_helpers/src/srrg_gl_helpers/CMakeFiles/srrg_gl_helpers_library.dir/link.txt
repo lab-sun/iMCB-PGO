@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -O3 -fPIC -std=c++11 -O3 -DNDEBUG  -shared -Wl,-soname,libsrrg_gl_helpers_library.so -o /catkin_ws/devel/.private/srrg_gl_helpers/lib/libsrrg_gl_helpers_library.so CMakeFiles/srrg_gl_helpers_library.dir/opengl_primitives.cpp.o -lGL -lGLU 

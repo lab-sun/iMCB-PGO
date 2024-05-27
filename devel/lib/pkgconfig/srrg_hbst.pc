@@ -1,0 +1,1 @@
+/catkin_ws/devel/.private/srrg_hbst/lib/pkgconfig/srrg_hbst.pc

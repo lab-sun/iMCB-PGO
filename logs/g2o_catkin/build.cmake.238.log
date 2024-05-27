@@ -1,0 +1,68 @@
+Not searching for unused variables given on the command line.
+[36m--[0m The C compiler identification is GNU 7.5.0
+[36m--[0m The CXX compiler identification is GNU 7.5.0
+[36m--[0m Check for working C compiler: /usr/bin/cc
+[36m--[0m Check for working C compiler: /usr/bin/cc -- works
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Check for working CXX compiler: /usr/bin/c++
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ -- works
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m 1b118ac2ed2055c4016c3b7cbd710225ed1651af
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/force_g2o/build
+[36m--[0m Using ninja to build G2O. May take a while. Please be patient.
+[36m--[0m Note that if you are using Ubuntu 16.04 or higher, the compiling will
+                      produce a lot of warnings
+[1/5] cd /catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o && /usr/bin/cmake -P /catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/tmp/g2o-gitupdate.cmake
+[2/5] cd /catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o-build && /usr/bin/cmake -GNinja /catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o && /usr/bin/cmake -E touch /catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o-stamp/g2o-configure
+[36m--[0m Compiling on Unix
+[36m--[0m Found CHOLMOD and its dependencies
+[36m--[0m Compiling with OpenGL support
+qmake: could not find a Qt installation of ''
+[36m--[0m Found unsuitable Qt version "" from NOTFOUND
+[36m--[0m Could NOT find QGLVIEWER (missing: QGLVIEWER_LIBRARY)
+[36m--[0m Compiling g2o apps
+[36m--[0m Compiling g2o examples
+[36m--[0m Compiling with GCC
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o-build
+[3/5] cd /catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o-build && /usr/bin/cmake --build . && /usr/bin/cmake -E touch /catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o-stamp/g2o-build
+ninja: no work to do.
+[4/5] cd /catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o-build && /usr/bin/cmake -E echo_append && /usr/bin/cmake -E touch /catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o-stamp/g2o-install
+[5/5] cd /catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/force_g2o/build && /usr/bin/cmake -E make_directory /catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/force_g2o/build/CMakeFiles && /usr/bin/cmake -E touch /catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/force_g2o/build/CMakeFiles/g2o-complete && /usr/bin/cmake -E touch /catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o-stamp/g2o-done
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /catkin_ws/devel/.private/g2o_catkin
+[36m--[0m Using CMAKE_PREFIX_PATH: /catkin_ws/devel;/opt/ros/melodic
+[36m--[0m This workspace overlays: /catkin_ws/devel;/opt/ros/melodic
+[36m--[0m Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python2
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/bin/empy
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /catkin_ws/build/g2o_catkin/test_results
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Found PythonInterp: /usr/bin/python2 (found version "2.7.17")
+[36m--[0m Looking for pthread.h
+[36m--[0m Looking for pthread.h - found
+[36m--[0m Looking for pthread_create
+[36m--[0m Looking for pthread_create - not found
+[36m--[0m Looking for pthread_create in pthreads
+[36m--[0m Looking for pthread_create in pthreads - not found
+[36m--[0m Looking for pthread_create in pthread
+[36m--[0m Looking for pthread_create in pthread - found
+[36m--[0m Found Threads: TRUE
+[36m--[0m Using Python nosetests: /usr/bin/nosetests-2.7
+[36m--[0m catkin 0.7.29
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /catkin_ws/build/g2o_catkin

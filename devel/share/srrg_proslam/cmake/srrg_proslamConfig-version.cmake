@@ -1,0 +1,1 @@
+/catkin_ws/devel/.private/srrg_proslam/share/srrg_proslam/cmake/srrg_proslamConfig-version.cmake

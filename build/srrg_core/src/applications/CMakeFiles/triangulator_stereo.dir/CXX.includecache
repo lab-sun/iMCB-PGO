@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/catkin_ws/src/srrg_core/src/applications/triangulator_stereo.cpp
+iostream
+-
+chrono
+-
+ctime
+-
+fstream
+-
+opencv2/core/version.hpp
+-
+opencv2/opencv.hpp
+-
+opencv2/xfeatures2d.hpp
+-
+

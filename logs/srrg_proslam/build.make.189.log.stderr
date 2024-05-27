@@ -1,0 +1,325 @@
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:57:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:14[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/LieGroup.h:[m[K In static member function '[01m[Kstatic Eigen::Matrix3d SE2::Jl(const Vector3d&)[m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/LieGroup.h:765:20:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ksina[m[K' [[01;35m[K-Wunused-variable[m[K]
+             double [01;35m[Ksina[m[K = std::sin(angle);
+                    [01;35m[K^~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/LieGroup.h:766:20:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kcosa[m[K' [[01;35m[K-Wunused-variable[m[K]
+             double [01;35m[Kcosa[m[K = std::cos(angle);
+                    [01;35m[K^~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/LieGroup.h:[m[K In static member function '[01m[Kstatic Eigen::Matrix3d SE2::InvJl(const Vector3d&)[m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/LieGroup.h:806:20:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ksina[m[K' [[01;35m[K-Wunused-variable[m[K]
+             double [01;35m[Ksina[m[K = std::sin(angle);
+                    [01;35m[K^~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/LieGroup.h:807:20:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kcosa[m[K' [[01;35m[K-Wunused-variable[m[K]
+             double [01;35m[Kcosa[m[K = std::cos(angle);
+                    [01;35m[K^~~~[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:14:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:[m[K In member function '[01m[Kbool CECPGO_NonlinearSolver<ty2D>::add_pose()[m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:519:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+     [01;35m[K}[m[K
+     [01;35m[K^[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1:0[m[K:
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:[m[K In constructor '[01m[Kproslam::SLAMAssembly::SLAMAssembly(proslam::ParameterCollection*)[m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:128:13:[m[K [01;35m[Kwarning: [m[K'[01m[Kproslam::SLAMAssembly::_world_map[m[K' will be initialized after [[01;35m[K-Wreorder[m[K]
+   WorldMap* [01;35m[K_world_map[m[K;
+             [01;35m[K^~~~~~~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:104:9:[m[K [01;35m[Kwarning: [m[K  '[01m[KGraph proslam::SLAMAssembly::G[m[K' [[01;35m[K-Wreorder[m[K]
+   Graph [01;35m[KG[m[K;
+         [01;35m[K^[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:12:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KSLAMAssembly[m[K::SLAMAssembly(ParameterCollection* parameters_): _parameters(parameters_),
+ [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1:0[m[K:
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:173:21:[m[K [01;35m[Kwarning: [m[K'[01m[Kproslam::SLAMAssembly::_is_viewer_open[m[K' will be initialized after [[01;35m[K-Wreorder[m[K]
+   std::atomic<bool> [01;35m[K_is_viewer_open[m[K;
+                     [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:108:7:[m[K [01;35m[Kwarning: [m[K  '[01m[Kint proslam::SLAMAssembly::edge_index[m[K' [[01;35m[K-Wreorder[m[K]
+   int [01;35m[Kedge_index[m[K;
+       [01;35m[K^~~~~~~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:12:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KSLAMAssembly[m[K::SLAMAssembly(ParameterCollection* parameters_): _parameters(parameters_),
+ [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/types/parameters.h:2:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/types/frame.h:2[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/framepoint_generation/base_framepoint_generator.h:2[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/../position_tracking/pose_tracker_3d.h:2[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:8[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:[m[K In member function '[01m[Kvoid proslam::SLAMAssembly::playbackMessageFile()[m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:478:23:[m[K [01;35m[Kwarning: [m[Kformat '[01m[K%u[m[K' expects a matching '[01m[Kunsigned int[m[K' argument [[01;35m[K-Wformat=[m[K]
+                       [01;35m[K)[m[K)
+                       [01;35m[K^[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:[m[K In member function '[01m[Kvoid proslam::SLAMAssembly::process(const cv::Mat&, const cv::Mat&, const double&, const bool&, const TransformMatrix3D&)[m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:656:62:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[KEigen::Matrix<double, 4, 4>::Matrix(Eigen::Transform<double, 3, 1>&)[m[K'
+               Eigen::Matrix<double, 4, 4> first_pose(tran_m_0[01;31m[K)[m[K;
+                                                              [01;31m[K^[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/Core:294:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_core/src/srrg_boss/eigen_boss_plugin.h:5[m[K,
+                 from [01m[K/catkin_ws/src/srrg_core/src/srrg_messages/base_sensor_message.h:2[m[K,
+                 from [01m[K/catkin_ws/src/srrg_core/src/srrg_messages/message_timestamp_synchronizer.h:2[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:6[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Matrix.h:342:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&)
+     explicit [01;36m[KMatrix[m[K(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+              [01;36m[K^~~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Matrix.h:342:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:656:62:[m[K [01;36m[Knote: [m[K  '[01m[KEigen::Transform<double, 3, 1>[m[K' is not derived from '[01m[Kconst Eigen::RotationBase<OtherDerived, 4>[m[K'
+               Eigen::Matrix<double, 4, 4> first_pose(tran_m_0[01;36m[K)[m[K;
+                                                              [01;36m[K^[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/Core:294:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_core/src/srrg_boss/eigen_boss_plugin.h:5[m[K,
+                 from [01m[K/catkin_ws/src/srrg_core/src/srrg_messages/base_sensor_message.h:2[m[K,
+                 from [01m[K/catkin_ws/src/srrg_core/src/srrg_messages/message_timestamp_synchronizer.h:2[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:6[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Matrix.h:318:25:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&)
+     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const EigenBase<OtherDerived> &other)
+                         [01;36m[K^~~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Matrix.h:318:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:656:62:[m[K [01;36m[Knote: [m[K  '[01m[KEigen::Transform<double, 3, 1>[m[K' is not derived from '[01m[Kconst Eigen::EigenBase<Derived>[m[K'
+               Eigen::Matrix<double, 4, 4> first_pose(tran_m_0[01;36m[K)[m[K;
+                                                              [01;36m[K^[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/Core:294:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_core/src/srrg_boss/eigen_boss_plugin.h:5[m[K,
+                 from [01m[K/catkin_ws/src/srrg_core/src/srrg_messages/base_sensor_message.h:2[m[K,
+                 from [01m[K/catkin_ws/src/srrg_core/src/srrg_messages/message_timestamp_synchronizer.h:2[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:6[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Matrix.h:307:25:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::ReturnByValue<OtherDerived>&)
+     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const ReturnByValue<OtherDerived>& other)
+                         [01;36m[K^~~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Matrix.h:307:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:656:62:[m[K [01;36m[Knote: [m[K  '[01m[KEigen::Transform<double, 3, 1>[m[K' is not derived from '[01m[Kconst Eigen::ReturnByValue<Derived>[m[K'
+               Eigen::Matrix<double, 4, 4> first_pose(tran_m_0[01;36m[K)[m[K;
+                                                              [01;36m[K^[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/Core:294:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_core/src/srrg_boss/eigen_boss_plugin.h:5[m[K,
+                 from [01m[K/catkin_ws/src/srrg_core/src/srrg_messages/base_sensor_message.h:2[m[K,
+                 from [01m[K/catkin_ws/src/srrg_core/src/srrg_messages/message_timestamp_synchronizer.h:2[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:6[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 4; int _Cols = 4; int _Options = 0; int _MaxRows = 4; int _MaxCols = 4]
+     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Matrix& other)
+                         [01;36m[K^~~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Matrix.h:299:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[KEigen::Transform<double, 3, 1>[m[K' to '[01m[Kconst Eigen::Matrix<double, 4, 4>&[m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Matrix.h:287:25:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::MatrixBase<OtherDerived>&)
+     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const MatrixBase<OtherDerived>& other)
+                         [01;36m[K^~~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Matrix.h:287:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:656:62:[m[K [01;36m[Knote: [m[K  '[01m[KEigen::Transform<double, 3, 1>[m[K' is not derived from '[01m[Kconst Eigen::MatrixBase<Derived>[m[K'
+               Eigen::Matrix<double, 4, 4> first_pose(tran_m_0[01;36m[K)[m[K;
+                                                              [01;36m[K^[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/Core:305:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_core/src/srrg_boss/eigen_boss_plugin.h:5[m[K,
+                 from [01m[K/catkin_ws/src/srrg_core/src/srrg_messages/base_sensor_message.h:2[m[K,
+                 from [01m[K/catkin_ws/src/srrg_core/src/srrg_messages/message_timestamp_synchronizer.h:2[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:6[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Map.h:184:8:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar*) [with _Scalar = double; int _Rows = 4; int _Cols = 4; int _Options = 0; int _MaxRows = 4; int _MaxCols = 4; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]
+ inline [01;36m[KMatrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>[m[K
+        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Map.h:184:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[KEigen::Transform<double, 3, 1>[m[K' to '[01m[Kconst Scalar* {aka const double*}[m[K'
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/Core:294:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_core/src/srrg_boss/eigen_boss_plugin.h:5[m[K,
+                 from [01m[K/catkin_ws/src/srrg_core/src/srrg_messages/base_sensor_message.h:2[m[K,
+                 from [01m[K/catkin_ws/src/srrg_core/src/srrg_messages/message_timestamp_synchronizer.h:2[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:6[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Matrix.h:273:25:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 4; int _Cols = 4; int _Options = 0; int _MaxRows = 4; int _MaxCols = 4; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]
+     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+                         [01;36m[K^~~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Matrix.h:273:25:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Matrix.h:264:25:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Rows = 4; int _Cols = 4; int _Options = 0; int _MaxRows = 4; int _MaxCols = 4; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = double]
+     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z)
+                         [01;36m[K^~~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Matrix.h:264:25:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Matrix.h:247:25:[m[K [01;36m[Knote: [m[Kcandidate: template<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&)
+     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const T0& x, const T1& y)
+                         [01;36m[K^~~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Matrix.h:247:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:656:62:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+               Eigen::Matrix<double, 4, 4> first_pose(tran_m_0[01;36m[K)[m[K;
+                                                              [01;36m[K^[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/Core:294:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_core/src/srrg_boss/eigen_boss_plugin.h:5[m[K,
+                 from [01m[K/catkin_ws/src/srrg_core/src/srrg_messages/base_sensor_message.h:2[m[K,
+                 from [01m[K/catkin_ws/src/srrg_core/src/srrg_messages/message_timestamp_synchronizer.h:2[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:6[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Matrix.h:235:34:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Index) [with _Scalar = double; int _Rows = 4; int _Cols = 4; int _Options = 0; int _MaxRows = 4; int _MaxCols = 4; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Index = long int]
+     EIGEN_STRONG_INLINE explicit [01;36m[KMatrix[m[K(Index dim)
+                                  [01;36m[K^~~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Matrix.h:235:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[KEigen::Transform<double, 3, 1>[m[K' to '[01m[KEigen::Matrix<double, 4, 4>::Index {aka long int}[m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Matrix.h:215:5:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 4; int _Cols = 4; int _Options = 0; int _MaxRows = 4; int _MaxCols = 4]
+     [01;36m[KMatrix[m[K(Matrix&& other)
+     [01;36m[K^~~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Matrix.h:215:5:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[KEigen::Transform<double, 3, 1>[m[K' to '[01m[KEigen::Matrix<double, 4, 4>&&[m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Matrix.h:210:5:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = double; int _Rows = 4; int _Cols = 4; int _Options = 0; int _MaxRows = 4; int _MaxCols = 4]
+     [01;36m[KMatrix[m[K(internal::constructor_without_unaligned_array_assert)
+     [01;36m[K^~~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Matrix.h:210:5:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from '[01m[KEigen::Transform<double, 3, 1>[m[K' to '[01m[KEigen::internal::constructor_without_unaligned_array_assert[m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Matrix.h:203:25:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = double; int _Rows = 4; int _Cols = 4; int _Options = 0; int _MaxRows = 4; int _MaxCols = 4]
+     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K() : Base()
+                         [01;36m[K^~~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/slam_plus_plus/include/eigen32/eigen/Eigen/src/Core/Matrix.h:203:25:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:665:21:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Knumber_of_negligible_updates[m[K' [[01;35m[K-Wunused-variable[m[K]
+               Count [01;35m[Knumber_of_negligible_updates[m[K = 0;
+                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:14:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h: In instantiation of '[01m[KCECPGO_NonlinearSolver<ty2D>::CECPGO_NonlinearSolver(Graph&) [with bool ty2D = false][m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:29:84:[m[K   required from here
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:189:19:[m[K [01;35m[Kwarning: [m[K'[01m[KCECPGO_NonlinearSolver<false>::m_tic[m[K' will be initialized after [[01;35m[K-Wreorder[m[K]
+     CTimerSampler [01;35m[Km_tic[m[K;
+                   [01;35m[K^~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:148:21:[m[K [01;35m[Kwarning: [m[K  '[01m[KCECPGO_NonlinearSolver<false>::CtypeCycleBasis CECPGO_NonlinearSolver<false>::MCB[m[K' [[01;35m[K-Wreorder[m[K]
+     CtypeCycleBasis [01;35m[KMCB[m[K;
+                     [01;35m[K^~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:205:14:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+     explicit [01;35m[KCECPGO_NonlinearSolver[m[K(Graph & G)
+              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:14:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h: In instantiation of '[01m[Kvoid CECPGO_NonlinearSolver<ty2D>::set_edge(int, int, Eigen::Quaterniond, Eigen::Vector3d, double, int&, int&, bool, double) [with bool ty2D = false; Eigen::Quaterniond = Eigen::Quaternion<double>; Eigen::Vector3d = Eigen::Matrix<double, 3, 1>][m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:602:168:[m[K   required from here
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:558:17:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ktem[m[K' [[01;35m[K-Wunused-variable[m[K]
+             int [01;35m[Ktem[m[K[2] = {n_vertex_id1 + 1, n_vertex_id2 + 1};
+                 [01;35m[K^~~[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:14:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h: In instantiation of '[01m[Kint CECPGO_NonlinearSolver<ty2D>::Optimize(std::size_t, double) [with bool ty2D = false; std::size_t = long unsigned int][m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:649:44:[m[K   required from here
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:306:35:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+         while ([01;35m[Km_n_used_iteration <= n_max_iteration[m[K)
+                [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:378:32:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+         if ([01;35m[Km_n_used_iteration > n_max_iteration[m[K)  // or --m_n_used_iteration in this case.
+             [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:64:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:14[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_Edge.h: In instantiation of '[01m[KCECPGO_Edge<VertexType>::CECPGO_Edge(std::size_t, std::size_t, const _TyLieAlgebraVector&, const _TyJacobianMatrix&) [with VertexType = CECPGO_Vertex<CTypeTraits<false> >; std::size_t = long unsigned int; CECPGO_Edge<VertexType>::_TyLieAlgebraVector = Eigen::Matrix<double, 6, 1>; CECPGO_Edge<VertexType>::_TyJacobianMatrix = Eigen::Matrix<double, 6, 6>][m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:552:21:[m[K   required from '[01m[Kvoid CECPGO_NonlinearSolver<ty2D>::set_edge(int, int, Eigen::Quaterniond, Eigen::Vector3d, double, int&, int&, bool, double) [with bool ty2D = false; Eigen::Quaterniond = Eigen::Quaternion<double>; Eigen::Vector3d = Eigen::Matrix<double, 3, 1>][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:602:168:[m[K   required from here
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_Edge.h:74:23:[m[K [01;35m[Kwarning: [m[K'[01m[KCECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > >::m_m_sqrt_covariance[m[K' will be initialized after [[01;35m[K-Wreorder[m[K]
+     _TyJacobianMatrix [01;35m[Km_m_sqrt_covariance[m[K; /**< @brief square root of the covariance matrix. L^{-T} */
+                       [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_Edge.h:67:23:[m[K [01;35m[Kwarning: [m[K  '[01m[KCECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > >::_TyLieGroupMatrix CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > >::m_m_estimation[m[K' [[01;35m[K-Wreorder[m[K]
+     _TyLieGroupMatrix [01;35m[Km_m_estimation[m[K; /**< @brief estimation matrix */
+                       [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_Edge.h:114:14:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+     explicit [01;35m[KCECPGO_Edge[m[K(size_t n_vertex_id1, size_t n_vertex_id2,
+              [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:66:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:14[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_EdgeCycleVertexSystem.h: In instantiation of '[01m[Kdouble CECPGO_EdgeCycleVertexSystem<EdgeType, CycleType, VertexType, n_pool_page_size>::f_Get_EdgePerturbationNorm() [with EdgeType = CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > >; CycleType = CECPGO_Cycle<CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > > >; VertexType = CECPGO_Vertex<CTypeTraits<false> >; long unsigned int n_pool_page_size = 1024][m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:318:20:[m[K   required from '[01m[Kint CECPGO_NonlinearSolver<ty2D>::Optimize(std::size_t, double) [with bool ty2D = false; std::size_t = long unsigned int][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:649:44:[m[K   required from here
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_EdgeCycleVertexSystem.h:574:26:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+         for (int i =0; i < m_edge_pool.n_Size(); ++i)
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:63:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:14[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_Vertex.h: In instantiation of '[01m[KCECPGO_Vertex<TypeTraits>::CECPGO_Vertex(std::size_t, CECPGO_Vertex<TypeTraits>::_TyLieGroupMatrix) [with TypeTraits = CTypeTraits<false>; std::size_t = long unsigned int; CECPGO_Vertex<TypeTraits>::_TyLieGroupMatrix = Eigen::Matrix<double, 4, 4>][m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_EdgeCycleVertexSystem.h:388:23:[m[K   required from '[01m[KCECPGO_EdgeCycleVertexSystem<EdgeType, CycleType, VertexType, n_pool_page_size>::_TyEdge& CECPGO_EdgeCycleVertexSystem<EdgeType, CycleType, VertexType, n_pool_page_size>::r_Add_Edge(const _TyEdge&) [with EdgeType = CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > >; CycleType = CECPGO_Cycle<CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > > >; VertexType = CECPGO_Vertex<CTypeTraits<false> >; long unsigned int n_pool_page_size = 1024; CECPGO_EdgeCycleVertexSystem<EdgeType, CycleType, VertexType, n_pool_page_size>::_TyEdge = CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > >][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:554:23:[m[K   required from '[01m[Kvoid CECPGO_NonlinearSolver<ty2D>::set_edge(int, int, Eigen::Quaterniond, Eigen::Vector3d, double, int&, int&, bool, double) [with bool ty2D = false; Eigen::Quaterniond = Eigen::Quaternion<double>; Eigen::Vector3d = Eigen::Matrix<double, 3, 1>][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:602:168:[m[K   required from here
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_Vertex.h:81:12:[m[K [01;35m[Kwarning: [m[K'[01m[KCECPGO_Vertex<CTypeTraits<false> >::m_n_vertex_id[m[K' will be initialized after [[01;35m[K-Wreorder[m[K]
+     size_t [01;35m[Km_n_vertex_id[m[K; /**<@brief unique vertex ID, same as storage index */
+            [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_Vertex.h:79:23:[m[K [01;35m[Kwarning: [m[K  '[01m[KCECPGO_Vertex<CTypeTraits<false> >::_TyLieGroupMatrix CECPGO_Vertex<CTypeTraits<false> >::m_m_vertex[m[K' [[01;35m[K-Wreorder[m[K]
+     _TyLieGroupMatrix [01;35m[Km_m_vertex[m[K; /**<@brief vertex value in matrix form */
+                       [01;35m[K^~~~~~~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_Vertex.h:88:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+     [01;35m[KCECPGO_Vertex[m[K(size_t n_id, _TyLieGroupMatrix m_value)
+     [01;35m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_EdgeCycleVertexSystem.h:811:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:66[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:14[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/PlottingUtilities.h: In instantiation of '[01m[Kbool CECPGO_EdgeCycleVertexSystem<EdgeType, CycleType, VertexType, n_pool_page_size>::Plot2D(const char*, int, int, float, float, float, float, bool, bool, int, bool) const [with EdgeType = CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > >; CycleType = CECPGO_Cycle<CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > > >; VertexType = CECPGO_Vertex<CTypeTraits<false> >; long unsigned int n_pool_page_size = 1024][m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/PlottingUtilities.h:419:26:[m[K   required from '[01m[Kbool CECPGO_EdgeCycleVertexSystem<EdgeType, CycleType, VertexType, n_pool_page_size>::Plot2D(const char*, plot_quality::EQualityProfile) const [with EdgeType = CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > >; CycleType = CECPGO_Cycle<CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > > >; VertexType = CECPGO_Vertex<CTypeTraits<false> >; long unsigned int n_pool_page_size = 1024][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:765:13:[m[K   required from '[01m[Kvoid CECPGO_NonlinearSolver<ty2D>::Plot(const char*) const [with bool ty2D = false][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:331:23:[m[K   required from '[01m[Kint CECPGO_NonlinearSolver<ty2D>::Optimize(std::size_t, double) [with bool ty2D = false; std::size_t = long unsigned int][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:649:44:[m[K   required from here
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/PlottingUtilities.h:285:56:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kn_ctick_type[m[K' [[01;35m[K-Wunused-variable[m[K]
+                             plot::tick_Cross_Subpixel, [01;35m[Kn_ctick_type[m[K = plot::tick_TiltedCross;
+                                                        [01;35m[K^~~~~~~~~~~~[m[K
+/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/PlottingUtilities.h: In instantiation of '[01m[Kbool CECPGO_EdgeCycleVertexSystem<EdgeType, CycleType, VertexType, n_pool_page_size>::Plot3D(const char*, int, int, float, float, float, float, bool, bool, int, bool) const [with EdgeType = CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > >; CycleType = CECPGO_Cycle<CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > > >; VertexType = CECPGO_Vertex<CTypeTraits<false> >; long unsigned int n_pool_page_size = 1024][m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/PlottingUtilities.h:446:26:[m[K   required from '[01m[Kbool CECPGO_EdgeCycleVertexSystem<EdgeType, CycleType, VertexType, n_pool_page_size>::Plot3D(const char*, plot_quality::EQualityProfile) const [with EdgeType = CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > >; CycleType = CECPGO_Cycle<CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > > >; VertexType = CECPGO_Vertex<CTypeTraits<false> >; long unsigned int n_pool_page_size = 1024][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:767:13:[m[K   required from '[01m[Kvoid CECPGO_NonlinearSolver<ty2D>::Plot(const char*) const [with bool ty2D = false][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:331:23:[m[K   required from '[01m[Kint CECPGO_NonlinearSolver<ty2D>::Optimize(std::size_t, double) [with bool ty2D = false; std::size_t = long unsigned int][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:649:44:[m[K   required from here
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/PlottingUtilities.h:386:56:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kn_ctick_type[m[K' [[01;35m[K-Wunused-variable[m[K]
+                             plot::tick_Cross_Subpixel, [01;35m[Kn_ctick_type[m[K = plot::tick_TiltedCross;
+                                                        [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:49:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:14[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/./slam_plus_plus/include/slam/LinearSolver_UberBlock.h: In instantiation of '[01m[Kbool CLinearSolver_UberBlock<CBlockMatrixTypelist>::SymbolicDecomposition_Blocky(const CUberBlockMatrix&) [with CBlockMatrixTypelist = CTypelist<Eigen::Matrix<double, 6, 6>, CTypelistEnd>][m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/./slam_plus_plus/include/slam/LinearSolver_UberBlock.h:331:36:[m[K   required from '[01m[Kbool CLinearSolver_UberBlock<CBlockMatrixTypelist>::Solve_PosDef_Blocky(const CUberBlockMatrix&, Eigen::VectorXd&) [with CBlockMatrixTypelist = CTypelist<Eigen::Matrix<double, 6, 6>, CTypelistEnd>; Eigen::VectorXd = Eigen::Matrix<double, -1, 1>][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_EdgeCycleVertexSystem.h:531:27:[m[K   required from '[01m[Kbool CECPGO_EdgeCycleVertexSystem<EdgeType, CycleType, VertexType, n_pool_page_size>::Solve_Cycle_System(LinearSolverType&) [with LinearSolverType = CLinearSolver_UberBlock<CTypelist<Eigen::Matrix<double, 6, 6>, CTypelistEnd> >; EdgeType = CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > >; CycleType = CECPGO_Cycle<CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > > >; VertexType = CECPGO_Vertex<CTypeTraits<false> >; long unsigned int n_pool_page_size = 1024][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:362:16:[m[K   required from '[01m[Kint CECPGO_NonlinearSolver<ty2D>::Optimize(std::size_t, double) [with bool ty2D = false; std::size_t = long unsigned int][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:649:44:[m[K   required from here
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/./slam_plus_plus/include/slam/LinearSolver_UberBlock.h:299:17:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kp_order[m[K' [[01;35m[K-Wunused-variable[m[K]
+   const size_t *[01;35m[Kp_order[m[K = m_mord.p_BlockOrdering(r_lambda, true); // use AMD (gives a better postordering than CAMD, requires less memory)
+                 [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_EdgeCycleVertexSystem.h:811:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:66[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:14[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/PlottingUtilities.h: In instantiation of '[01m[Kbool CECPGO_EdgeCycleVertexSystem<EdgeType, CycleType, VertexType, n_pool_page_size>::Vertex_BoundingBox(Eigen::MatrixBase<OtherDerived>&, Eigen::MatrixBase<ScaleDerived>&, const Eigen::MatrixBase<OtherDerived>&, bool) const [with Derived0 = Eigen::CwiseNullaryOp<Eigen::internal::scalar_identity_op<double>, Eigen::Matrix<double, 2, 2> >; Derived1 = Eigen::Matrix<double, 2, 1>; Derived2 = Eigen::Matrix<double, 2, 1>; EdgeType = CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > >; CycleType = CECPGO_Cycle<CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > > >; VertexType = CECPGO_Vertex<CTypeTraits<false> >; long unsigned int n_pool_page_size = 1024][m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/PlottingUtilities.h:238:23:[m[K   required from '[01m[Kbool CECPGO_EdgeCycleVertexSystem<EdgeType, CycleType, VertexType, n_pool_page_size>::Plot2D(const char*, int, int, float, float, float, float, bool, bool, int, bool) const [with EdgeType = CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > >; CycleType = CECPGO_Cycle<CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > > >; VertexType = CECPGO_Vertex<CTypeTraits<false> >; long unsigned int n_pool_page_size = 1024][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/PlottingUtilities.h:419:26:[m[K   required from '[01m[Kbool CECPGO_EdgeCycleVertexSystem<EdgeType, CycleType, VertexType, n_pool_page_size>::Plot2D(const char*, plot_quality::EQualityProfile) const [with EdgeType = CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > >; CycleType = CECPGO_Cycle<CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > > >; VertexType = CECPGO_Vertex<CTypeTraits<false> >; long unsigned int n_pool_page_size = 1024][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:765:13:[m[K   required from '[01m[Kvoid CECPGO_NonlinearSolver<ty2D>::Plot(const char*) const [with bool ty2D = false][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:331:23:[m[K   required from '[01m[Kint CECPGO_NonlinearSolver<ty2D>::Optimize(std::size_t, double) [with bool ty2D = false; std::size_t = long unsigned int][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:649:44:[m[K   required from here
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/PlottingUtilities.h:61:18:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kn_output_dim[m[K' [[01;35m[K-Wunused-variable[m[K]
+     const size_t [01;35m[Kn_output_dim[m[K = r_t_transform.rows();
+                  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_EdgeCycleVertexSystem.h:811:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:66[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:14[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/PlottingUtilities.h: In instantiation of '[01m[Kvoid CECPGO_EdgeCycleVertexSystem<EdgeType, CycleType, VertexType, n_pool_page_size>::Draw_Edges(TBmp*, const Eigen::MatrixBase<OtherDerived>&, const Vector2d&, uint32_t, float, std::size_t, std::size_t, bool, std::size_t, std::size_t) const [with Derived = Eigen::Matrix<double, 2, 2>; EdgeType = CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > >; CycleType = CECPGO_Cycle<CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > > >; VertexType = CECPGO_Vertex<CTypeTraits<false> >; long unsigned int n_pool_page_size = 1024; Eigen::Vector2d = Eigen::Matrix<double, 2, 1>; uint32_t = unsigned int; std::size_t = long unsigned int][m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/PlottingUtilities.h:279:15:[m[K   required from '[01m[Kbool CECPGO_EdgeCycleVertexSystem<EdgeType, CycleType, VertexType, n_pool_page_size>::Plot2D(const char*, int, int, float, float, float, float, bool, bool, int, bool) const [with EdgeType = CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > >; CycleType = CECPGO_Cycle<CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > > >; VertexType = CECPGO_Vertex<CTypeTraits<false> >; long unsigned int n_pool_page_size = 1024][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/PlottingUtilities.h:419:26:[m[K   required from '[01m[Kbool CECPGO_EdgeCycleVertexSystem<EdgeType, CycleType, VertexType, n_pool_page_size>::Plot2D(const char*, plot_quality::EQualityProfile) const [with EdgeType = CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > >; CycleType = CECPGO_Cycle<CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > > >; VertexType = CECPGO_Vertex<CTypeTraits<false> >; long unsigned int n_pool_page_size = 1024][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:765:13:[m[K   required from '[01m[Kvoid CECPGO_NonlinearSolver<ty2D>::Plot(const char*) const [with bool ty2D = false][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:331:23:[m[K   required from '[01m[Kint CECPGO_NonlinearSolver<ty2D>::Optimize(std::size_t, double) [with bool ty2D = false; std::size_t = long unsigned int][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:649:44:[m[K   required from here
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/PlottingUtilities.h:126:18:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kn_optimized_vertex_num[m[K' [[01;35m[K-Wunused-variable[m[K]
+     const size_t [01;35m[Kn_optimized_vertex_num[m[K = m_vertex_pool.n_Size();
+                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_EdgeCycleVertexSystem.h:811:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:66[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:14[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/PlottingUtilities.h: In instantiation of '[01m[Kbool CECPGO_EdgeCycleVertexSystem<EdgeType, CycleType, VertexType, n_pool_page_size>::Vertex_BoundingBox(Eigen::MatrixBase<OtherDerived>&, Eigen::MatrixBase<ScaleDerived>&, const Eigen::MatrixBase<OtherDerived>&, bool) const [with Derived0 = Eigen::Matrix<double, 2, 3>; Derived1 = Eigen::Matrix<double, 2, 1>; Derived2 = Eigen::Matrix<double, 2, 1>; EdgeType = CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > >; CycleType = CECPGO_Cycle<CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > > >; VertexType = CECPGO_Vertex<CTypeTraits<false> >; long unsigned int n_pool_page_size = 1024][m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/PlottingUtilities.h:340:23:[m[K   required from '[01m[Kbool CECPGO_EdgeCycleVertexSystem<EdgeType, CycleType, VertexType, n_pool_page_size>::Plot3D(const char*, int, int, float, float, float, float, bool, bool, int, bool) const [with EdgeType = CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > >; CycleType = CECPGO_Cycle<CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > > >; VertexType = CECPGO_Vertex<CTypeTraits<false> >; long unsigned int n_pool_page_size = 1024][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/PlottingUtilities.h:446:26:[m[K   required from '[01m[Kbool CECPGO_EdgeCycleVertexSystem<EdgeType, CycleType, VertexType, n_pool_page_size>::Plot3D(const char*, plot_quality::EQualityProfile) const [with EdgeType = CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > >; CycleType = CECPGO_Cycle<CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > > >; VertexType = CECPGO_Vertex<CTypeTraits<false> >; long unsigned int n_pool_page_size = 1024][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:767:13:[m[K   required from '[01m[Kvoid CECPGO_NonlinearSolver<ty2D>::Plot(const char*) const [with bool ty2D = false][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:331:23:[m[K   required from '[01m[Kint CECPGO_NonlinearSolver<ty2D>::Optimize(std::size_t, double) [with bool ty2D = false; std::size_t = long unsigned int][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:649:44:[m[K   required from here
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/PlottingUtilities.h:61:18:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kn_output_dim[m[K' [[01;35m[K-Wunused-variable[m[K]
+     const size_t [01;35m[Kn_output_dim[m[K = r_t_transform.rows();
+                  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_EdgeCycleVertexSystem.h:811:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:66[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:14[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/PlottingUtilities.h: In instantiation of '[01m[Kvoid CECPGO_EdgeCycleVertexSystem<EdgeType, CycleType, VertexType, n_pool_page_size>::Draw_Edges(TBmp*, const Eigen::MatrixBase<OtherDerived>&, const Vector2d&, uint32_t, float, std::size_t, std::size_t, bool, std::size_t, std::size_t) const [with Derived = Eigen::Matrix<double, 2, 3>; EdgeType = CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > >; CycleType = CECPGO_Cycle<CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > > >; VertexType = CECPGO_Vertex<CTypeTraits<false> >; long unsigned int n_pool_page_size = 1024; Eigen::Vector2d = Eigen::Matrix<double, 2, 1>; uint32_t = unsigned int; std::size_t = long unsigned int][m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/PlottingUtilities.h:380:15:[m[K   required from '[01m[Kbool CECPGO_EdgeCycleVertexSystem<EdgeType, CycleType, VertexType, n_pool_page_size>::Plot3D(const char*, int, int, float, float, float, float, bool, bool, int, bool) const [with EdgeType = CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > >; CycleType = CECPGO_Cycle<CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > > >; VertexType = CECPGO_Vertex<CTypeTraits<false> >; long unsigned int n_pool_page_size = 1024][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/PlottingUtilities.h:446:26:[m[K   required from '[01m[Kbool CECPGO_EdgeCycleVertexSystem<EdgeType, CycleType, VertexType, n_pool_page_size>::Plot3D(const char*, plot_quality::EQualityProfile) const [with EdgeType = CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > >; CycleType = CECPGO_Cycle<CECPGO_Edge<CECPGO_Vertex<CTypeTraits<false> > > >; VertexType = CECPGO_Vertex<CTypeTraits<false> >; long unsigned int n_pool_page_size = 1024][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:767:13:[m[K   required from '[01m[Kvoid CECPGO_NonlinearSolver<ty2D>::Plot(const char*) const [with bool ty2D = false][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:331:23:[m[K   required from '[01m[Kint CECPGO_NonlinearSolver<ty2D>::Optimize(std::size_t, double) [with bool ty2D = false; std::size_t = long unsigned int][m[K'
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:649:44:[m[K   required from here
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/PlottingUtilities.h:126:18:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kn_optimized_vertex_num[m[K' [[01;35m[K-Wunused-variable[m[K]
+     const size_t [01;35m[Kn_optimized_vertex_num[m[K = m_vertex_pool.n_Size();
+                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [src/system/CMakeFiles/srrg_proslam_slam_assembly_library.dir/slam_assembly.cpp.o] Error 1
+make[1]: *** [src/system/CMakeFiles/srrg_proslam_slam_assembly_library.dir/all] Error 2
+make: *** [all] Error 2

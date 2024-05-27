@@ -1,0 +1,5 @@
+[01m[K/catkin_ws/src/srrg_core/src/srrg_messages/sensor_message_sorter.cpp:[m[K In destructor '[01m[Kvirtual srrg_core::SensorMessageSorter::Trigger::~Trigger()[m[K':
+[01m[K/catkin_ws/src/srrg_core/src/srrg_messages/sensor_message_sorter.cpp:18:49:[m[K [01;35m[Kwarning: [m[Kthrow will always call terminate() [[01;35m[K-Wterminate[m[K]
+       throw std::runtime_error("error in delete"[01;35m[K)[m[K;
+                                                 [01;35m[K^[m[K
+[01m[K/catkin_ws/src/srrg_core/src/srrg_messages/sensor_message_sorter.cpp:18:49:[m[K [01;36m[Knote: [m[Kin C++11 destructors default to noexcept

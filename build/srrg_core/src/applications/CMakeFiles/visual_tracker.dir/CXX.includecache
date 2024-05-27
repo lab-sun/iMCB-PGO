@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/catkin_ws/src/srrg_core/src/applications/visual_tracker.cpp
+iostream
+-
+chrono
+-
+ctime
+-
+opencv2/core/version.hpp
+-
+opencv2/opencv.hpp
+-
+opencv2/xfeatures2d.hpp
+-
+

@@ -1,0 +1,17 @@
+[  2%] Built target LinearLeastSquaresLib
+[ 14%] Built target EC_PGO_FCB_LIB
+[ 14%] Built target EC_PGO_LIB
+[ 22%] Built target incre_MCB
+[ 26%] Built target trajectory_analyzer
+[ 42%] Built target srrg_proslam_types_library
+[ 55%] Built target EC_PGO_FCB
+[ 55%] Built target TestLeastSquares
+[ 55%] Built target EC_PGO
+[ 71%] Built target srrg_proslam_visualization_library
+[ 71%] Built target srrg_proslam_map_optimization_library
+[ 73%] Built target srrg_proslam_aligners_library
+[ 83%] Built target srrg_proslam_framepoint_generation_library
+[ 87%] Built target srrg_proslam_relocalization_library
+[ 91%] Built target srrg_proslam_position_tracking_library
+[ 95%] Built target srrg_proslam_slam_assembly_library
+[100%] Built target app

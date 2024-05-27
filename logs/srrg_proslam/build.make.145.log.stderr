@@ -1,0 +1,17 @@
+[01m[K/catkin_ws/src/srrg_proslam/src/types/world_map.cpp:[m[K In member function '[01m[Kvoid proslam::WorldMap::writeTrajectoryKITTI(const string&) const[m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/types/world_map.cpp:197:3:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K,[m[K' or '[01m[K;[m[K' before '[01m[Kstd[m[K'
+   [01;31m[Kstd[m[K::ofstream outfile_trajectory_2(filename_kitti_2, std::ifstream::out);
+   [01;31m[K^~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/types/world_map.cpp:198:3:[m[K [01;31m[Kerror: [m[K'[01m[Koutfile_trajectory_2[m[K' was not declared in this scope
+   [01;31m[Koutfile_trajectory_2[m[K << std::fixed;
+   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/types/world_map.cpp:198:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: '[01m[KwriteTrajectory[m[K'
+   [01;36m[Koutfile_trajectory_2[m[K << std::fixed;
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+   [32m[KwriteTrajectory[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/types/world_map.cpp:196:8:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kfilename_kitti_2[m[K' [[01;35m[K-Wunused-variable[m[K]
+   auto [01;35m[Kfilename_kitti_2[m[K = "trajectory_kitti_2.txt"
+        [01;35m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [src/types/CMakeFiles/srrg_proslam_types_library.dir/world_map.cpp.o] Error 1
+make[1]: *** [src/types/CMakeFiles/srrg_proslam_types_library.dir/all] Error 2
+make: *** [all] Error 2

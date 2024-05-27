@@ -1,0 +1,27 @@
+[  2%] Built target srrg_system_utils_library
+[ 17%] Built target srrg_boss_library
+[ 24%] Built target visual_tracker_optical_flow
+[ 24%] Built target triangulator_stereo
+[ 24%] Built target visual_tracker
+[ 32%] Built target srrg_path_map_library
+[ 34%] Built target srrg_kdtree_example
+[ 36%] Built target srrg_kitti_evaluate_odometry_app
+[ 45%] Built target srrg_core_types_library
+[ 47%] Built target dijkstra_test
+[ 48%] Built target clusterer_test
+[ 51%] Built target distance_map_test
+[ 55%] Built target srrg_image_utils_library
+[ 77%] Built target srrg_messages_library
+[ 78%] Built target srrg_bresenham_example_app
+[ 81%] Built target srrg_message_sorter_app
+[ 82%] Built target srrg_open_file_example_app
+[ 83%] Built target srrg_remove_odometry_offset_example_app
+[ 84%] Built target srrg_message_synchronizer_example
+[ 86%] Built target triangulator_mono_least_squares
+[ 88%] Built target srrg_open_boss_file_example_app
+[ 91%] Built target srrg_message_groundtruther_tum_app
+[ 96%] Built target srrg_message_converter_kitti_app
+[ 96%] Built target srrg_trajectory_saver_example_app
+[ 97%] Built target srrg_trajectory_saver_example
+[ 98%] Built target triangulator_mono_average
+[100%] Built target srrg_message_converter_euroc_app

@@ -1,0 +1,61 @@
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:56:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:14[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/LieGroup.h:[m[K In static member function '[01m[Kstatic Eigen::Matrix3d SE2::Jl(const Vector3d&)[m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/LieGroup.h:765:20:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ksina[m[K' [[01;35m[K-Wunused-variable[m[K]
+             double [01;35m[Ksina[m[K = std::sin(angle);
+                    [01;35m[K^~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/LieGroup.h:766:20:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kcosa[m[K' [[01;35m[K-Wunused-variable[m[K]
+             double [01;35m[Kcosa[m[K = std::cos(angle);
+                    [01;35m[K^~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/LieGroup.h:[m[K In static member function '[01m[Kstatic Eigen::Matrix3d SE2::InvJl(const Vector3d&)[m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/LieGroup.h:806:20:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ksina[m[K' [[01;35m[K-Wunused-variable[m[K]
+             double [01;35m[Ksina[m[K = std::sin(angle);
+                    [01;35m[K^~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/LieGroup.h:807:20:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kcosa[m[K' [[01;35m[K-Wunused-variable[m[K]
+             double [01;35m[Kcosa[m[K = std::cos(angle);
+                    [01;35m[K^~~~[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:14:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:[m[K In member function '[01m[Kbool CECPGO_NonlinearSolver<ty2D>::add_pose()[m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:513:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+     [01;35m[K}[m[K
+     [01;35m[K^[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1:0[m[K:
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:[m[K In constructor '[01m[Kproslam::SLAMAssembly::SLAMAssembly(proslam::ParameterCollection*)[m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:169:21:[m[K [01;35m[Kwarning: [m[K'[01m[Kproslam::SLAMAssembly::_is_viewer_open[m[K' will be initialized after [[01;35m[K-Wreorder[m[K]
+   std::atomic<bool> [01;35m[K_is_viewer_open[m[K;
+                     [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:126:7:[m[K [01;35m[Kwarning: [m[K  '[01m[Kint proslam::SLAMAssembly::edge_index[m[K' [[01;35m[K-Wreorder[m[K]
+   int [01;35m[Kedge_index[m[K;
+       [01;35m[K^~~~~~~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:12:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KSLAMAssembly[m[K::SLAMAssembly(ParameterCollection* parameters_): _parameters(parameters_),
+ [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/types/parameters.h:2:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/types/frame.h:2[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/framepoint_generation/base_framepoint_generator.h:2[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/../position_tracking/pose_tracker_3d.h:2[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:8[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:[m[K In member function '[01m[Kvoid proslam::SLAMAssembly::playbackMessageFile()[m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:479:23:[m[K [01;35m[Kwarning: [m[Kformat '[01m[K%u[m[K' expects a matching '[01m[Kunsigned int[m[K' argument [[01;35m[K-Wformat=[m[K]
+                       [01;35m[K)[m[K)
+                       [01;35m[K^[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:[m[K In member function '[01m[Kvoid proslam::SLAMAssembly::process(const cv::Mat&, const cv::Mat&, const double&, const bool&, const TransformMatrix3D&)[m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:594:36:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kedge_estimate_matrix[m[K' [[01;35m[K-Wunused-variable[m[K]
+           const TransformMatrix3D& [01;35m[Kedge_estimate_matrix[m[K = world_to_local_map_previous*created_local_map->robotToWorld();
+                                    [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:14:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:1[m[K:
+/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h: In instantiation of '[01m[KCECPGO_NonlinearSolver<ty2D>::CECPGO_NonlinearSolver(Graph&) [with bool ty2D = false][m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.cpp:34:46:[m[K   required from here
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:188:19:[m[K [01;35m[Kwarning: [m[K'[01m[KCECPGO_NonlinearSolver<false>::m_tic[m[K' will be initialized after [[01;35m[K-Wreorder[m[K]
+     CTimerSampler [01;35m[Km_tic[m[K;
+                   [01;35m[K^~~~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:147:21:[m[K [01;35m[Kwarning: [m[K  '[01m[KCECPGO_NonlinearSolver<false>::CtypeCycleBasis CECPGO_NonlinearSolver<false>::MCB[m[K' [[01;35m[K-Wreorder[m[K]
+     CtypeCycleBasis [01;35m[KMCB[m[K;
+                     [01;35m[K^~~[m[K
+[01m[K/catkin_ws/src/srrg_proslam/src/system/../EC-PGO/ECPGO_NonlinearSolver.h:204:14:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+     explicit [01;35m[KCECPGO_NonlinearSolver[m[K(Graph & G)
+              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K

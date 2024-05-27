@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/force_g2o/build/CMakeFiles/g2o"
+		},
+		{
+			"file" : "/catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/force_g2o/build/CMakeFiles/g2o.rule"
+		},
+		{
+			"file" : "/catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/force_g2o/build/CMakeFiles/g2o-complete.rule"
+		},
+		{
+			"file" : "/catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o-stamp/g2o-install.rule"
+		},
+		{
+			"file" : "/catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o-stamp/g2o-mkdir.rule"
+		},
+		{
+			"file" : "/catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o-stamp/g2o-download.rule"
+		},
+		{
+			"file" : "/catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o-stamp/g2o-update.rule"
+		},
+		{
+			"file" : "/catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o-stamp/g2o-patch.rule"
+		},
+		{
+			"file" : "/catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o-stamp/g2o-configure.rule"
+		},
+		{
+			"file" : "/catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o-stamp/g2o-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"g2o"
+		],
+		"name" : "g2o"
+	}
+}

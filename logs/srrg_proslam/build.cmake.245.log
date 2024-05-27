@@ -1,0 +1,98 @@
+Not searching for unused variables given on the command line.
+[36m--[0m The C compiler identification is GNU 7.5.0
+[36m--[0m The CXX compiler identification is GNU 7.5.0
+[36m--[0m Check for working C compiler: /usr/bin/cc
+[36m--[0m Check for working C compiler: /usr/bin/cc -- works
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Check for working CXX compiler: /usr/bin/c++
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ -- works
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+srrg_proslam|build type: 'RELEASE'
+srrg_proslam|adding flags for 'RELEASE': '-O3 -fPIC -std=c++11 -Wall -Wno-int-in-bool-context -pedantic -DNDEBUG'
+srrg_proslam|using Eigen from slam++ at 'src/EC-PGO/slam_plus_plus/include/eigen32/eigen'
+srrg_proslam|using ROS version: 'melodic' (building nodes)
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /catkin_ws/devel/.private/srrg_proslam
+[36m--[0m Using CMAKE_PREFIX_PATH: /catkin_ws/devel;/opt/ros/melodic
+[36m--[0m This workspace overlays: /catkin_ws/devel;/opt/ros/melodic
+[36m--[0m Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python2
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/bin/empy
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /catkin_ws/build/srrg_proslam/test_results
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Found PythonInterp: /usr/bin/python2 (found version "2.7.17")
+[36m--[0m Looking for pthread.h
+[36m--[0m Looking for pthread.h - found
+[36m--[0m Looking for pthread_create
+[36m--[0m Looking for pthread_create - not found
+[36m--[0m Looking for pthread_create in pthreads
+[36m--[0m Looking for pthread_create in pthreads - not found
+[36m--[0m Looking for pthread_create in pthread
+[36m--[0m Looking for pthread_create in pthread - found
+[36m--[0m Found Threads: TRUE
+[36m--[0m Using Python nosetests: /usr/bin/nosetests-2.7
+[36m--[0m catkin 0.7.29
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+srrg_proslam|using ROS OpenCV version: '3.2.0' (ROS)
+srrg_proslam|xfeatures2d library not found, using ORB instead of BRIEF descriptors
+srrg_cmake_modules|searching for g2o in: /root/source/libraries/g2o
+srrg_cmake_modules|g2o not found
+srrg_proslam|found CMake 3+: assuming new g2o ownership model
+srrg_proslam|using catkin g2o
+srrg_proslam|final flags: ' -fPIC -O3 -fPIC -std=c++11 -Wall -Wno-int-in-bool-context -pedantic -DNDEBUG'
+[36m--[0m Found OpenMP_C: -fopenmp (found version "4.5")
+[36m--[0m Found OpenMP_CXX: -fopenmp (found version "4.5")
+[36m--[0m Found OpenMP: TRUE (found version "4.5")
+[36m--[0m Found OpenMP_C: -fopenmp
+[36m--[0m Found OpenMP_CXX: -fopenmp
+[36m--[0m Found OpenMP: TRUE
+CMake Warning (dev) at src/EC-PGO/CMakeLists.txt:62 (target_link_libraries):
+  Policy CMP0023 is not set: Plain and keyword target_link_libraries
+  signatures cannot be mixed.  Run "cmake --help-policy CMP0023" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The plain signature for target_link_libraries has already been used with
+  the target "EC_PGO".  All uses of target_link_libraries with a target
+  should be either all-keyword or all-plain.
+
+  The uses of the plain signature are here:
+
+   * src/EC-PGO/CMakeLists.txt:58 (TARGET_LINK_LIBRARIES)
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[36m--[0m Found OpenMP_C: -fopenmp
+[36m--[0m Found OpenMP_CXX: -fopenmp
+CMake Warning (dev) at src/EC-PGO/CMakeLists.txt:82 (target_link_libraries):
+  Policy CMP0023 is not set: Plain and keyword target_link_libraries
+  signatures cannot be mixed.  Run "cmake --help-policy CMP0023" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The plain signature for target_link_libraries has already been used with
+  the target "EC_PGO_FCB".  All uses of target_link_libraries with a target
+  should be either all-keyword or all-plain.
+
+  The uses of the plain signature are here:
+
+   * src/EC-PGO/CMakeLists.txt:78 (TARGET_LINK_LIBRARIES)
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[36m--[0m Found OpenMP_C: -fopenmp
+[36m--[0m Found OpenMP_CXX: -fopenmp
+OPENMP FOUND
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /catkin_ws/build/srrg_proslam

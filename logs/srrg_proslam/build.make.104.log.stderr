@@ -1,0 +1,17 @@
+[01m[K/catkin_ws/src/srrg_proslam/executables/app.cpp:[m[K In function '[01m[Kint32_t main(int32_t, char**)[m[K':
+[01m[K/catkin_ws/src/srrg_proslam/executables/app.cpp:32:38:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function '[01m[Kint Graph::n_num_nodes() const[m[K'
+   [01;31m[Kstd::cout << "MCB_Ptr (outside): " << slam_system.ECPGO->MCB.G->n_num_nodes[m[K << "\n" << endl;
+   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/catkin_ws/src/srrg_proslam/src/MinimumCycleBasis/include/APSP.h:73:0[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/MinimumCycleBasis/include/IsometricCycles.h:34[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/MinimumCycleBasis/include/AdaptiveIsometricCyclesExtraction.h:39[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/incre_MCB/include/Increment_MCB.h:19[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/EC-PGO/ECPGO_NonlinearSolver.h:79[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/src/system/slam_assembly.h:14[m[K,
+                 from [01m[K/catkin_ws/src/srrg_proslam/executables/app.cpp:1[m[K:
+[01m[K/catkin_ws/src/srrg_proslam/src/MinimumCycleBasis/include/Graph.h:154:16:[m[K [01;36m[Knote: [m[Kdeclared here
+     inline int [01;36m[Kn_num_nodes[m[K() const {
+                [01;36m[K^~~~~~~~~~~[m[K
+make[2]: *** [executables/CMakeFiles/app.dir/app.cpp.o] Error 1
+make[1]: *** [executables/CMakeFiles/app.dir/all] Error 2
+make: *** [all] Error 2

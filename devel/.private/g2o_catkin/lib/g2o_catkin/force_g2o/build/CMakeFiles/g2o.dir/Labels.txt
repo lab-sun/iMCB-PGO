@@ -1,0 +1,13 @@
+# Target labels
+ g2o
+# Source files and their labels
+/catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/force_g2o/build/CMakeFiles/g2o
+/catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/force_g2o/build/CMakeFiles/g2o.rule
+/catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/force_g2o/build/CMakeFiles/g2o-complete.rule
+/catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o-stamp/g2o-install.rule
+/catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o-stamp/g2o-mkdir.rule
+/catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o-stamp/g2o-download.rule
+/catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o-stamp/g2o-update.rule
+/catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o-stamp/g2o-patch.rule
+/catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o-stamp/g2o-configure.rule
+/catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o-stamp/g2o-build.rule

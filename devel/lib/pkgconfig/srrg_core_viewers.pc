@@ -1,0 +1,1 @@
+/catkin_ws/devel/.private/srrg_core_viewers/lib/pkgconfig/srrg_core_viewers.pc

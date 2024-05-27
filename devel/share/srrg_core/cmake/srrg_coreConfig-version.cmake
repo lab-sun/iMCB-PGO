@@ -1,0 +1,1 @@
+/catkin_ws/devel/.private/srrg_core/share/srrg_core/cmake/srrg_coreConfig-version.cmake

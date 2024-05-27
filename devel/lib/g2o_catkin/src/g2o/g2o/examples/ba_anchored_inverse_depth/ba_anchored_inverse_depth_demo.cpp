@@ -1,0 +1,1 @@
+/catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o/g2o/examples/ba_anchored_inverse_depth/ba_anchored_inverse_depth_demo.cpp

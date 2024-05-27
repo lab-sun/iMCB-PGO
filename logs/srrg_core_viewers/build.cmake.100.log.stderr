@@ -1,0 +1,3 @@
+srrg_core_viewers|PROCESSOR_TYPE: [x86_64]
+srrg_core_viewers|found ROS version: 'melodic' linking against ROS OpenCV
+srrg_core_viewers|OpenCV version 3.2.0

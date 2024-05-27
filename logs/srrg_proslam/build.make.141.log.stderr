@@ -1,0 +1,7 @@
+[01m[K/catkin_ws/src/srrg_proslam/src/types/world_map.cpp:[m[K In member function '[01m[Kvoid proslam::WorldMap::writeTrajectoryKITTI(const string&) const[m[K':
+[01m[K/catkin_ws/src/srrg_proslam/src/types/world_map.cpp:217:3:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' before '[01m[Koutfile_trajectory[m[K'
+   [01;31m[Koutfile_trajectory[m[K.close();
+   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [src/types/CMakeFiles/srrg_proslam_types_library.dir/world_map.cpp.o] Error 1
+make[1]: *** [src/types/CMakeFiles/srrg_proslam_types_library.dir/all] Error 2
+make: *** [all] Error 2

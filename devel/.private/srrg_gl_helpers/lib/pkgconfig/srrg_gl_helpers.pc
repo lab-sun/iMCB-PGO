@@ -1,0 +1,8 @@
+prefix=/catkin_ws/devel/.private/srrg_gl_helpers
+
+Name: srrg_gl_helpers
+Description: Description of srrg_gl_helpers
+Version: 1.0.0
+Cflags: -I/catkin_ws/src/srrg_gl_helpers/src
+Libs: -L${prefix}/lib -lsrrg_gl_helpers_library
+Requires: 

@@ -1,0 +1,1 @@
+/catkin_ws/devel/.private/g2o_catkin/lib/g2o_catkin/src/g2o/doc/README_IF_IT_WAS_WORKING_AND_IT_DOES_NOT.txt

@@ -1,0 +1,8 @@
+prefix=/catkin_ws/devel/.private/srrg_core_viewers
+
+Name: srrg_core_viewers
+Description: Description of srrg_core_viewers
+Version: 1.0.0
+Cflags: -I/catkin_ws/src/srrg_core_viewers/src
+Libs: -L${prefix}/lib -lsrrg_core_viewers_library
+Requires: srrg_gl_helpers srrg_core

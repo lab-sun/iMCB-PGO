@@ -1,0 +1,1 @@
+/catkin_ws/devel/.private/srrg_cmake_modules/lib/pkgconfig/srrg_cmake_modules.pc

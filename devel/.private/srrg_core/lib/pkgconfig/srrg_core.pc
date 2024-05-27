@@ -1,0 +1,8 @@
+prefix=/catkin_ws/devel/.private/srrg_core
+
+Name: srrg_core
+Description: Description of srrg_core
+Version: 1.0.0
+Cflags: -I/catkin_ws/src/srrg_core/src
+Libs: -L${prefix}/lib -lsrrg_boss_library -lsrrg_core_types_library -lsrrg_system_utils_library -lsrrg_image_utils_library -lsrrg_messages_library -lsrrg_path_map_library
+Requires: 

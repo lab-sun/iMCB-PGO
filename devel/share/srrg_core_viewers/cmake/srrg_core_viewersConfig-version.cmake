@@ -1,0 +1,1 @@
+/catkin_ws/devel/.private/srrg_core_viewers/share/srrg_core_viewers/cmake/srrg_core_viewersConfig-version.cmake

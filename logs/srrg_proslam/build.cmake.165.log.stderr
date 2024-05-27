@@ -1,0 +1,44 @@
+srrg_proslam|build type: 'RELEASE'
+srrg_proslam|adding flags for 'RELEASE': '-O3 -fPIC -std=c++11 -Wall -Wno-int-in-bool-context -pedantic -DNDEBUG'
+srrg_proslam|using Eigen from slam++ at 'src/EC-PGO/slam_plus_plus/include/eigen32/eigen'
+srrg_proslam|using ROS version: 'melodic' (building nodes)
+srrg_proslam|using ROS OpenCV version: '3.2.0' (ROS)
+srrg_proslam|xfeatures2d library not found, using ORB instead of BRIEF descriptors
+srrg_cmake_modules|searching for g2o in: /root/source/libraries/g2o
+srrg_cmake_modules|g2o not found
+srrg_proslam|found CMake 3+: assuming new g2o ownership model
+srrg_proslam|using catkin g2o
+srrg_proslam|final flags: ' -fPIC -O3 -fPIC -std=c++11 -Wall -Wno-int-in-bool-context -pedantic -DNDEBUG'
+CMake Warning (dev) at src/EC-PGO/CMakeLists.txt:62 (target_link_libraries):
+  Policy CMP0023 is not set: Plain and keyword target_link_libraries
+  signatures cannot be mixed.  Run "cmake --help-policy CMP0023" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The plain signature for target_link_libraries has already been used with
+  the target "EC_PGO".  All uses of target_link_libraries with a target
+  should be either all-keyword or all-plain.
+
+  The uses of the plain signature are here:
+
+   * src/EC-PGO/CMakeLists.txt:58 (TARGET_LINK_LIBRARIES)
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at src/EC-PGO/CMakeLists.txt:82 (target_link_libraries):
+  Policy CMP0023 is not set: Plain and keyword target_link_libraries
+  signatures cannot be mixed.  Run "cmake --help-policy CMP0023" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The plain signature for target_link_libraries has already been used with
+  the target "EC_PGO_FCB".  All uses of target_link_libraries with a target
+  should be either all-keyword or all-plain.
+
+  The uses of the plain signature are here:
+
+   * src/EC-PGO/CMakeLists.txt:78 (TARGET_LINK_LIBRARIES)
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+OPENMP FOUND

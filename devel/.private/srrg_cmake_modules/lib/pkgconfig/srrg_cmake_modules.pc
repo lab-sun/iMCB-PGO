@@ -1,0 +1,8 @@
+prefix=/catkin_ws/devel/.private/srrg_cmake_modules
+
+Name: srrg_cmake_modules
+Description: Description of srrg_cmake_modules
+Version: 0.0.0
+Cflags: -I/catkin_ws/src/srrg_cmake_modules/cmake_modules
+Libs: -L${prefix}/lib 
+Requires: 

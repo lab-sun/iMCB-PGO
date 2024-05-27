@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/catkin_ws/src/srrg_core/src/srrg_system_utils/system_utils.cpp
+iostream
+-
+fstream
+-
+sys/stat.h
+-
+system_utils.h
+/catkin_ws/src/srrg_core/src/srrg_system_utils/system_utils.h
+
+/catkin_ws/src/srrg_core/src/srrg_system_utils/system_utils.h
+string
+-
+sys/time.h
+-
+sys/resource.h
+-
+

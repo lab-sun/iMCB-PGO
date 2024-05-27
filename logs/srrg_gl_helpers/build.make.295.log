@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target srrg_gl_helpers_library[0m
+[ 50%] [32mBuilding CXX object src/srrg_gl_helpers/CMakeFiles/srrg_gl_helpers_library.dir/opengl_primitives.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /catkin_ws/devel/.private/srrg_gl_helpers/lib/libsrrg_gl_helpers_library.so[0m
+[100%] Built target srrg_gl_helpers_library

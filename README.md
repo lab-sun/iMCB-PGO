@@ -1,6 +1,12 @@
 # iMCB-PGO
 
-This repository hosts the code for the Incremental MCB project.
+The official implementation of iMCB-PGO.
+
+A primary demo is as following:
+
+https://www.youtube.com/watch?v=iuCsuhma3Uo&t=12s&ab_channel=KeyuChen
+
+and more fancy visualization will come in the future.
 
 ## Maintenance and Updates
 

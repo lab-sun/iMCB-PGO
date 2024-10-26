@@ -4,14 +4,12 @@ The official implementation of iMCB-PGO.
 
 A primary demo is as following:
 
-https://www.youtube.com/watch?v=iuCsuhma3Uo&t=12s&ab_channel=KeyuChen
+[![Watch the video](https://img.youtube.com/vi/iuCsuhma3Uo/maxresdefault.jpg)](https://www.youtube.com/watch?v=iuCsuhma3Uo&t=19s)
 
-and more fancy visualization will come in the future.
 
-## Maintenance and Updates
 
-**Please note:** All maintenance, updates, and further development for this project are conducted at the following GitHub repository:
+Demonstration of cycle update:
 
-[https://github.com/Keyu-C/incremental-MCB](https://github.com/Keyu-C/incremental-MCB)
+[![Watch the video](https://img.youtube.com/vi/xOrPtLuzGdY/maxresdefault.jpg)](https://www.youtube.com/watch?v=xOrPtLuzGdY)
 
-If you are looking for the latest version of the code, issue tracking, or other resources, please visit the link above.
+

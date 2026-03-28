@@ -10,7 +10,7 @@ Demonstration of cycle update:
 
 [![Watch the video](https://img.youtube.com/vi/xOrPtLuzGdY/maxresdefault.jpg)](https://www.youtube.com/watch?v=xOrPtLuzGdY)
 
-# If you use our work in your research, please cite:
+If you use our work in your research, please cite:
 
 ```
 @ARTICLE{chen2024imcb,
